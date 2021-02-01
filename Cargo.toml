@@ -2,6 +2,7 @@
 name = "danger"
 version = "0.1.0"
 authors = ["Orta Therox <orta.therox@gmail.com>"]
+edition = "2018"
 
 description = "Create Danger rules in Rust"
 homepage = "https://github.com/danger/rust"
@@ -22,7 +23,7 @@ serde_derive = "^1.0"
 
 # These two are bugs, I need them for update_types.rs but don't
 # know how to not make it a core dep :-/
-schemafy = "0.4.3" 
+schemafy = "0.5.1"
 reqwest = "^0"
 
 [dev-dependencies]
